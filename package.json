@@ -1,0 +1,20 @@
+{
+  "name": "reactlearing",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel src -d out ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-flow": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "flow-bin": "^0.178.0"
+  }
+}
